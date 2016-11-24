@@ -17,14 +17,15 @@ html {
 }
 
 body {
-  display: block;
   margin: 0;
+  padding: 0;
 }
 
 img {
   display: block;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 @media only screen and (min-width: 20em) {
@@ -44,4 +45,15 @@ img {
 
 @media only screen and (min-width: 25em) {
 
+  img {
+    display: inline-block;
+  }
+
+  img:nth-child(2) {
+    display: none;
+  }
+
+  img:nth-child(5) {
+    display: none;
+  }
 }
