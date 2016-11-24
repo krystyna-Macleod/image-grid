@@ -26,15 +26,15 @@ img {
 
 @media only screen and (min-width: 30em) {
 
-img {
-  display: inline-block;
-}
+  img {
+    display: inline-block;
+  }
 
-img:first-child {
-  display: none;
-}
+  img:first-child {
+    display: none;
+  }
 
-img:nth-child(4) {
-  display: none;
-}
+  img:nth-child(4) {
+    display: none;
+  }
 }
