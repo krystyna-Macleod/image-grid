@@ -28,6 +28,27 @@ img {
   padding: 0;
 }
 
+@media only screen and (min-width: 20em) {
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  img:first-child {
+    display: block;
+    width: 100%;
+  }
+
+  img:nth-child(even) {
+    display: none;
+  }
+
+  img:nth-child(odd) {
+    float: left;
+  }
+}
+
 @media only screen and (min-width: 25em) {
 
   img {
@@ -42,6 +63,7 @@ img {
 
   img:nth-child(even) {
     float: left;
+    display: block;
   }
 
   img:nth-child(odd) {
