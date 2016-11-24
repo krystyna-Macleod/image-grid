@@ -68,4 +68,8 @@ img {
   img:nth-child(odd) {
     float: left;
   }
+
+  img:nth-child(5) {
+    display: none;
+  }
 }
