@@ -39,4 +39,8 @@ img {
   img:nth-child(4) {
     display: none;
   }
+
+  img:nth-child(5) {
+    display: none;
+  }
 }
