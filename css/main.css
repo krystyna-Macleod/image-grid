@@ -32,10 +32,6 @@ img {
     display: inline-block;
   }
 
-  img:first-child {
-    display: none;
-  }
-
   img:nth-child(4) {
     display: none;
   }
