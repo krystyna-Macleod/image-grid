@@ -94,4 +94,8 @@ img {
     float: left;
   }
 
+  img:nth-child(5) {
+    float: left;
+  }
+
 }
