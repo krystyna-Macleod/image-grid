@@ -26,7 +26,7 @@ img {
   width: 100%;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 20em) {
 
   img {
     display: inline-block;
@@ -43,4 +43,8 @@ img {
   img:nth-child(2) {
     display: none;
   }
+}
+
+@media only screen and (min-width: 25em) {
+
 }
