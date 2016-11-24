@@ -95,7 +95,7 @@ img {
   }
 
   img:nth-child(5) {
-    float: left;
+    display: block;
   }
 
 }
