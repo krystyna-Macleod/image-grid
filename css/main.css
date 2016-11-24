@@ -28,32 +28,44 @@ img {
   padding: 0;
 }
 
-@media only screen and (min-width: 20em) {
-
-  img {
-    display: inline-block;
-  }
-
-  img:nth-child(2) {
-    display: none;
-  }
-
-  img:nth-child(5) {
-    display: none;
-  }
-}
-
 @media only screen and (min-width: 25em) {
 
   img {
-    display: inline-block;
+    display: block;
+    width: 50%;
   }
 
-  img:nth-child(2) {
-    display: none;
+  img:first-child {
+    display: block;
+    width: 100%;
   }
 
-  img:nth-child(5) {
-    display: none;
+  img:nth-child(even) {
+    float: left;
+  }
+
+  img:nth-child(odd) {
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    display: block;
+    width: 33.3333%;
+  }
+
+  img:first-child {
+    display: block;
+    width: 100%;
+  }
+
+  img:nth-child(even) {
+    float: left;
+  }
+
+  img:nth-child(odd) {
+    float: left;
   }
 }
